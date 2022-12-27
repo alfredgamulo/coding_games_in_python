@@ -1,0 +1,17 @@
+{
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "python.linting.flake8Args": [
+    "--builtins=screen,mouse,keys"
+  ],
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUndefinedVariable": "none"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "files.insertFinalNewline": true,
+}
